@@ -29,7 +29,7 @@ function App() {
         { answerText: 'Metaverse', isCorrect: false },
         { answerText: 'Instagram', isCorrect: false },
         { answerText: 'Meta', isCorrect: true },
-        { answerText: 'The Zuck Show', isCorrect: false },
+        { answerText: 'Bookbook', isCorrect: false },
       ],
     },
     {
