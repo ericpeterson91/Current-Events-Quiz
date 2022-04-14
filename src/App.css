@@ -13,10 +13,12 @@
   flex-direction: column;
   gap: 20px;
   font-size: 35px;
+  font-weight: bold;
 }
 
 #tuned {
   font-size: 25px;
+  font-weight: bold;
   color: rgb(138, 138, 138)
 }
 
