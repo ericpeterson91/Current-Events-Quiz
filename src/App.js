@@ -77,7 +77,7 @@ function App() {
     <div className="App">
       {showScore ? (
         <div className='score-section'>You scored {score} out of {questions.length}.
-          <div id="tuned">Stay tuned for another quiz next week.</div>
+          <div id="tuned">Stay tuned for another quiz soon.</div>
         </div>
       ) : (
         <>
