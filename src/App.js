@@ -6,7 +6,7 @@ function App() {
 
   const questions = [
     {
-      questionText: 'What company did Elon Musk recently purchase 9.2% of?',
+      questionText: 'Which company did Elon Musk recently purchase 9.2% of?',
       answerOptions: [
         { answerText: 'Snapchat', isCorrect: false },
         { answerText: 'Twitter', isCorrect: true },
@@ -42,7 +42,7 @@ function App() {
       ],
     },
     {
-      questionText: 'Who recently went on a huge heater on Jeopardy?',
+      questionText: 'Who recently went on a huge run on Jeopardy?',
       answerOptions: [
         { answerText: 'Ken Jennings', isCorrect: false },
         { answerText: 'Frank Lyman', isCorrect: false },
@@ -76,21 +76,23 @@ function App() {
   return (
     <div className="App">
       {showScore ? (
-        <div class='score-section'>You scored {score} out of {questions.length}.
-        <div>Stay tuned for another quiz next week.</div>
+        <div className='score-section'>You scored {score} out of {questions.length}.
+          <div id="tuned">Stay tuned for another quiz next week.</div>
         </div>
       ) : (
         <>
+        <div className='container'>
           <div className='question-section'>
               <div className='question-count'> 
-              <span>Question {currentQuestion + 1}</span>/{questions.length}
+              <span>Question {currentQuestion + 1}</span> out of {questions.length}
               </div>
               <div className='question-text'>{questions[currentQuestion].questionText}</div>
           </div>
           <div className="answers">
             {questions[currentQuestion].answerOptions.map((answerOption) => (
-            <button onClick={()=> handleButton(answerOption.isCorrect)}>{answerOption.answerText}</button>))
+            <button className='button' onClick={()=> handleButton(answerOption.isCorrect)}>{answerOption.answerText}</button>))
             }
+          </div>
           </div>
         </>
 

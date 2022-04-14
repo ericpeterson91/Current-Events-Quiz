@@ -2,3 +2,62 @@
   text-align: center;
 }
 
+.score-section {
+  height: 100vh;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(108, 198, 133);
+  flex-direction: column;
+  gap: 20px;
+  font-size: 35px;
+}
+
+#tuned {
+  font-size: 25px;
+  color: rgb(138, 138, 138)
+}
+
+.container {
+  height: 100vh;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(52, 191, 91);
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.question-count {
+  font-size: 35px;
+  color:rgb(52, 131, 191)
+}
+.question-section {
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+.question-text {
+  margin-top: 20px;
+}
+.button {
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+  height: 50px;
+  width: 200px;
+  font-size: 16px;
+  border: none;
+  font-weight: bold;
+  color:rgb(0, 0, 0);
+}
+
+.answers {
+  margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+}
