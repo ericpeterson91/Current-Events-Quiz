@@ -11,7 +11,7 @@ function App() {
         { answerText: 'Snapchat', isCorrect: false },
         { answerText: 'Twitter', isCorrect: true },
         { answerText: 'PayPal', isCorrect: false },
-        { answerText: 'Spotify', isCorrect: false },
+        { answerText: 'Shopify', isCorrect: false },
       ],
     },
     {
@@ -24,12 +24,12 @@ function App() {
       ],
     },
     {
-      questionText: 'Which podcast did Donald Trump recently appear on?',
+      questionText: 'What did Facebook recently change its name to?',
       answerOptions: [
-        { answerText: 'Joe Rogan Experience', isCorrect: false },
-        { answerText: 'Call Her Daddy', isCorrect: false },
-        { answerText: 'Full Send Podcast', isCorrect: true },
-        { answerText: 'Pete and Sebastian Show', isCorrect: false },
+        { answerText: 'Metaverse', isCorrect: false },
+        { answerText: 'Instagram', isCorrect: false },
+        { answerText: 'Meta', isCorrect: true },
+        { answerText: 'The Zuck Show', isCorrect: false },
       ],
     },
     {
